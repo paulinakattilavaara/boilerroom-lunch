@@ -1,17 +1,17 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-:root{
+:root {
     --bg-clr: pink;
     --border-clr: rgb(182, 141, 148);
     --text-clr: rgb(120, 86, 91);
     --card-clr: rgba(255, 255, 255, 0.386);
 }
 
-body{
+body {
     background-color: var(--bg-clr);
     color: var(--text-clr);
     display: flex;
@@ -20,7 +20,7 @@ body{
     align-items: center;
 }
 
-#lunchForm{
+#lunchForm {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,37 +29,37 @@ body{
     height: 50vh;
 }
 
-.style{
+.style {
     margin: 0.6rem;
     padding: 0.6rem;
     border: 2px solid var(--border-clr);
 }
 
-.label{
+.label {
     font-size: 1.25rem;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-.stylesubmit{
+.stylesubmit {
     padding: 0.5rem 1rem;
     border-radius: 30px;
     font-size: 1.25rem;
     margin-top: 1rem;
-    border:  3px solid var(--border-clr);
+    border: 3px solid var(--border-clr);
     color: var(--text-clr);
 }
 
-.stylecheckbox{
+.stylecheckbox {
     transform: scale(1.5);
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 3rem;
     margin-top: 1rem;
 }
 
-.lunch-card{
+.lunch-card {
     width: 80%;
     display: flex;
     flex-flow: column wrap;
@@ -69,18 +69,20 @@ h1{
     background-color: var(--card-clr);
     padding: 1.5rem;
     border-radius: 30px;
+
+    visibility: hidden;
 }
 
-.price{
+.price {
     font-weight: 700;
     font-size: 1.5rem;
 }
 
-.description{
+.description {
     width: 80%;
     text-align: center;
 }
 
-.veg{
+.veg {
     font-weight: 600;
 }
