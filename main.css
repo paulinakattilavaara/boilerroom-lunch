@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bg-clr: pink;
+    --border-clr: rgb(182, 141, 148);
+    --text-clr: rgb(120, 86, 91);
+}
+
+body{
+    background-color: var(--bg-clr);
+    color: var(--text-clr);
+}
+
+#lunchForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 100vw;
+    height: 50vh;
+}
+
+.style{
+    margin: 0.6rem;
+    padding: 0.6rem;
+    border: 2px solid var(--border-clr);
+}
+
+.label{
+    font-size: 1.25rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.stylesubmit{
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    border:  3px solid var(--border-clr);
+    color: var(--text-clr);
+}
+
+.stylecheckbox{
+    transform: scale(1.5);
+}
