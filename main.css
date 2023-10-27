@@ -69,13 +69,17 @@ h1 {
   align-items: center;
   gap: 1rem;
   background-color: var(--card-clr);
-  padding: 1.5rem;
   border-radius: 30px;
+}
+
+.heading{
+    padding-top: 1.5rem;
 }
 
 .price {
   font-weight: 700;
   font-size: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .description {
